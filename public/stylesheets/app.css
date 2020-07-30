@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f6fa;
+}
+.container-fluid{
+    padding: 0;
+}
+
+.navbar img{
+    height: 2rem;
+    width: 100%; 
+}
+.navbar .col-2{
+    padding: 0;
+}
+.navbar p{
+    font-size: .68rem;
+    text-align: center;
+    font-weight: 700;
+    margin-top: .3rem;
+}
+.navbar{
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+   z-index: 10;
+   background-color: skyblue;
+   overflow-y: hidden;
+   height: 4.5rem;
+}
+.carousel,.carousel-item img{ 
+    height:15rem;
+}
+.carousel-caption{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin-left: -4rem;
+    margin-right: 4rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.carousel-caption p{
+    margin: 0;
+}
+.list{
+    height: 5rem;
+}
+.row{
+    margin: 0;
+}
+.header{
+    margin: .8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.shadow{
+    background-color: white;
+    padding: 0;
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.shadow p{
+    margin-bottom: 0;
+    padding: 0.3rem;
+}
+.lastrow{
+    margin-bottom: 6rem !important;
+}
