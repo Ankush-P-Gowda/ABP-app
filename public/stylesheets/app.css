@@ -72,3 +72,16 @@ body{
 .lastrow{
     margin-bottom: 6rem !important;
 }
+#author{
+    font-size: .8rem;
+    opacity: 0.5;
+}
+.review{
+    font-size: .9rem;
+}
+.lastrow .shadow{
+    background-color: white;
+    padding: .5rem;
+    color: black;
+    font-weight: 500;
+}
