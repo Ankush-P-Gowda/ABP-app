@@ -16,14 +16,7 @@ h5{
     margin: 0.3rem !important;
     padding: 0 .3rem;
 }
-.crown{
-position: relative;
-}
 
 .fa-crown{
-    position: absolute;
     color: gold;
-    right: 3rem;
-    bottom: 1.67rem;
-    transform: rotate(-20deg);
 }
