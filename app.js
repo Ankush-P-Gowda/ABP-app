@@ -8,7 +8,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get('/',function(req,res){
-    res.render("landing");
+    res.render("main/landing");
 });
 
 app.listen(port,function(){

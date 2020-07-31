@@ -16,22 +16,7 @@ body{
 .navbar .col-2{
     padding: 0;
 }
-.navbar p{
-    font-size: .68rem;
-    text-align: center;
-    font-weight: 700;
-    margin-top: .3rem;
-}
-.navbar{
-    padding-top: .8rem;
-    padding-bottom: .8rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-   z-index: 10;
-   background-color: skyblue;
-   overflow-y: hidden;
-   height: 4.5rem;
-}
+
 .carousel,.carousel-item img{ 
     height:15rem;
 }
