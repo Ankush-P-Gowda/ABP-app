@@ -43,11 +43,18 @@
     margin-left:1rem;
     margin-right: 1rem;
 }
+.shadow p:nth-of-type(1){
+    margin: auto 0.3rem;
 
-.shadow p{
-    margin-bottom: 0;
-    padding: 0.3rem;
 }
+
+.shadow p:nth-of-type(2){
+    margin-bottom: 0;
+    padding: 0rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
 .lastrow{
     margin-bottom: 6rem !important;
 }
@@ -66,8 +73,8 @@
 }
 .btn{
     height: 1.5rem;
-    font-size: 0.7rem;
-    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    margin: 0.3rem !important;
 }
 .tips{
     height: 10rem;
