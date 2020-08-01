@@ -17,11 +17,16 @@
 .carousel-caption{
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    width: fit-content;
+    width: 27rem;
     margin-left: -4rem;
     margin-right: 3rem;
     padding: 1.3rem;
     margin-bottom: 2rem;
+}
+@media (max-width : 375px){
+    .carousel-caption{
+        width: 25rem;
+    }
 }
 .carousel-caption p{
     margin: 0;
