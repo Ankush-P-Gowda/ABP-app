@@ -8,4 +8,9 @@
 .services p{
     margin: auto 0.3rem;
     text-align: center;
+    height: 1.8rem;
+}
+.nametag{
+    background-color: #ee4c7c;
+    color: white;
 }

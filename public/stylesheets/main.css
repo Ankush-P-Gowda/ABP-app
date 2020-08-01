@@ -19,6 +19,8 @@ h5{
     font-size: 0.9rem;
     margin: 0.3rem !important;
     padding: 0 .3rem;
+    background-color: #ee4c7c;
+    color: white;
 }
 
 .fa-crown{
