@@ -22,6 +22,9 @@ h5{
     background-color: #ee4c7c;
     color: white;
 }
+.lastrow{
+    margin-bottom: 6rem !important;
+}
 
 .fa-crown{
     color: gold;
