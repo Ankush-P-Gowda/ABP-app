@@ -1,0 +1,12 @@
+.services{
+    padding: 0;
+    margin:.7rem;
+}
+.servicesList{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.services p{
+    margin: auto 0.3rem;
+    text-align: center;
+}

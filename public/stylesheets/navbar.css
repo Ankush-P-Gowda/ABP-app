@@ -14,3 +14,10 @@
    overflow-y: hidden;
    height: 4.5rem;
 }
+.navbar img{
+    height: 2rem;
+    width: 100%; 
+}
+.navbar .col-2{
+    padding: 0;
+}

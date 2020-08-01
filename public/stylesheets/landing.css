@@ -1,16 +1,4 @@
 
-.container-fluid{
-    padding: 0;
-}
-
-.navbar img{
-    height: 2rem;
-    width: 100%; 
-}
-.navbar .col-2{
-    padding: 0;
-}
-
 .carousel,.carousel-item img{ 
     height:15rem;
 }
