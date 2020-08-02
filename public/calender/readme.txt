@@ -1,4 +1,4 @@
-This is the Mobiscroll example file linking to a trial build.
+Demos require a Mobiscroll trial or the licensed product.
 
 The Mobiscroll Trial comes with a number of limitations including:
  - Always connected mode. When using a trial build you'll always have to be connected to the internet.
@@ -6,4 +6,4 @@ The Mobiscroll Trial comes with a number of limitations including:
 
 These limitations are lifted with the purchase of a license. You will be able to build custom download packages that can be included in online and offline apps as well.
 
-Please refer to the EULA (from the license folder) or https://mobiscroll.com/EULA for more info.
+Please refer to the EULA - https://mobiscroll.com/EULA for more info.
