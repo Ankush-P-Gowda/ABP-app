@@ -86,5 +86,32 @@ position: absolute;
     text-align: start;
     font-weight: 600;
 }
+.services-list{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.services-list h6{
+    text-align: start;
+    font-weight: 600;
+}
+.services-list .container{
+    border-radius: 100%;
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    padding: 0;
+    margin-right: 0.8rem;
+}
+.servicesAdded .list{
+    height: 3rem;
+    border:1px solid #e3e2df;
+    background-color: white;    
+}
+.servicesAdded .list p,i{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
 
 
