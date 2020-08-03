@@ -1,0 +1,89 @@
+.date{
+    height: 7rem;
+    background-color: white;
+}
+.date p:nth-of-type(1){
+    text-align: center;
+    font-size: 3rem;
+    color: #e3e2df;
+    margin: 0;
+}
+.date p:nth-of-type(2){
+    text-align: center;
+    font-size: 1rem;
+    color: #e3e2df;
+    margin-top:-.5rem ;
+}
+.date::after{
+content: "";
+height: 0;
+width: 0;
+border-bottom: 12px solid black;
+border-top: 12px solid transparent;
+border-right: 12px solid transparent;
+border-left: 12px solid transparent;
+left: 47%;
+bottom:0%;
+position: absolute;
+}
+.date::before{
+    content: "";
+    height: 0;
+    width: 0;
+    border-bottom: 12px solid transparent;
+    border-top: 12px solid black;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    left: 47%;
+    top:0%;
+    position: absolute;
+    }
+
+.date .slick-center p{
+    color: black !important;
+}
+
+.time .slick-center{
+    background-color: #ee4c7c !important;
+    color: white !important;
+    border: #ee4c7c !important;
+}
+.time .slick-track{
+    height: 100%;
+}
+
+.time{
+    height: 3rem;
+    margin-top: .5rem;
+    background-color: white;
+}
+.btn{
+    height: 35px !important;
+    color: #ee4c7c;
+    border: #ee4c7c !important;
+    background-color: white !important;
+    border: 1px solid #ee4c7c !important;
+
+}
+.date .col-2{
+    padding-top: .5rem;
+}
+
+.heading{
+    height: 3rem;
+}
+.heading h6,p{
+    margin: 0;
+
+}
+.heading p{
+    text-align: end;
+    font-weight: bold;
+}
+
+.heading h6{
+    text-align: start;
+    font-weight: 600;
+}
+
+
