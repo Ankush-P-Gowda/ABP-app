@@ -104,7 +104,7 @@ position: absolute;
 }
 .servicesAdded .list{
     height: 3rem;
-    border:1px solid #e3e2df;
+    border:1.5px solid #e3e2df;
     background-color: white;    
 }
 .servicesAdded .list p,i{
