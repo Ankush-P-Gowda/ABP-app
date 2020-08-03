@@ -16,3 +16,6 @@ document.querySelectorAll('.md-view-change').forEach(function (elm) {
         }
     });
 });
+
+var date = mobiscroll.util.datetime.parseDate('dd-mm-yy', '10-02-2020');
+console.log(date);
