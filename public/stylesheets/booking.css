@@ -41,6 +41,7 @@ position: absolute;
 
 .date .slick-center p{
     color: black !important;
+    transform: scale(1.2,1.2);
 }
 
 .time .slick-center{
