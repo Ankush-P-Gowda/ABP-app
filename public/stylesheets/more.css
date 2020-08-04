@@ -4,9 +4,76 @@
     width: 70px;
     height: 70px;
 }
-.list img{
-    height: 45px;
-    width: 45px;
-    margin-top: .7rem;
+.aboutus img{
+    height: 75%;
+    width: 80%;
+    margin-top: .4rem;
     margin-left: .5rem;
+}
+.offers img{
+    height: 70%;
+    width: 70%;
+    margin-top: .6rem;
+    margin-left: .7rem;
+}
+.booked img{
+    height: 60%;
+    width: 60%;
+    margin-top: .7rem;
+    margin-left: .8rem;
+}
+.myprofile img{
+    height: 70%;
+    width: 70%;
+    margin-top: .6rem;
+    margin-left: .7rem;
+}
+.insta img{
+    height: 60%;
+    width: 60%;
+    margin-top: .75rem;
+    margin-left: .85rem;
+}
+.gallery img{
+    height: 70%;
+    width: 70%;
+    margin-top: .6rem;
+    margin-left: .7rem;
+}
+.moreList .list-1{
+    background-color: #FF69B4;
+    padding: .5rem;
+    margin: .5rem;
+}
+.moreList .list-2{
+    background-color: greenyellow;
+    padding: .5rem;
+    margin: .5rem;
+}
+.moreList .list-3{
+    background-color: blue;
+    padding: .5rem;
+    margin: .5rem;
+}
+.moreList .list-4{
+    background-color: red;
+    padding: .5rem;
+    margin: .5rem;
+}
+.moreList .list-5{
+    background-color: pink;
+    padding: .5rem;
+    margin: .5rem;
+}
+.moreList .list-6{
+    background-color: orange;
+    padding: .5rem;
+    margin: .5rem;
+}
+.moreList .col-5 p{
+    margin-top: 0.5rem !important;
+    margin-bottom: .7rem !important;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
 }
