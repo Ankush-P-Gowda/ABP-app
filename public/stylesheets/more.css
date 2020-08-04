@@ -38,6 +38,12 @@
 .gallery{
     background-color: #fdcb6e;
 }
+.review{
+    background-color: #a29bfe;
+}
+.logout{
+    background-color: #636e72;
+}
 .offers img{
     height: 50%;
     width: 50%;
@@ -63,6 +69,18 @@
     margin-left:1.1rem;
 }
 .gallery img{
+    height: 50%;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+}
+.review img{
+    height: 50%;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+}
+.logout img{
     height: 50%;
     width: 50%;
     margin-top: 1rem;
