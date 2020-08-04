@@ -19,6 +19,10 @@ app.get('/booking',function(req,res){
     res.render("main/booking");
 });
 
+app.get('/products', function(req, res) {
+    res.render("main/products");
+});
+
 app.get('/more',function(req,res){
     res.render("main/more");
 });

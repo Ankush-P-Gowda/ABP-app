@@ -20,20 +20,23 @@
     margin-bottom: .7rem !important;
     font-size: 1rem;
 }
+.aboutus{
+    background-color: ghostwhite;
+}
 .offers{
-    background-color: chartreuse;
+    background-color:#55efc4;
 }
 .booked{
-    background-color: blue;
+    background-color: #74b9ff;
 }
 .user{
-    background-color: red;
+    background-color: #d63031;
 }
 .insta{
-    background-color: pink;
+    background-color: #e84393;
 }
 .gallery{
-    background-color: orange;
+    background-color: #fdcb6e;
 }
 .offers img{
     height: 50%;
