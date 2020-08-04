@@ -19,6 +19,10 @@ app.get('/booking',function(req,res){
     res.render("main/booking");
 });
 
+app.get('/more',function(req,res){
+    res.render("main/more");
+});
+
 app.listen(port,function(){
     console.log("Server Started Ankush..!!");
 });

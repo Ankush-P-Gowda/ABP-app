@@ -1,0 +1,12 @@
+.list{
+    border-radius: 100%;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+}
+.list img{
+    height: 45px;
+    width: 45px;
+    margin-top: .7rem;
+    margin-left: .5rem;
+}
