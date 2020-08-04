@@ -112,6 +112,14 @@ position: absolute;
     margin-right: 1rem;
     font-weight: 600;
 }
+.button a{
+    background-color:#ee4c7c !important;
+    color: white;
+    font-size: 1.3rem;
+}
+.button{
+    margin-top: 1rem;
+}
 
 
 
