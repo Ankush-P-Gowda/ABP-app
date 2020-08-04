@@ -120,6 +120,7 @@ position: absolute;
     height: 100% !important;
     margin: 0 !important;
     padding: .5rem;
+    font-weight: 600;
 }
 .button{
     margin-top: 1rem;
