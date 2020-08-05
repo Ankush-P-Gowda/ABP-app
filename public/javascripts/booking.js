@@ -29,14 +29,19 @@ function movePara(para){
 //////////////////
 
 
-
+// Date Slider
 function date(){
   let p = 0;
   for(let i=dt.getDate(),j=dt.getDay(); i<endDate+1; i++,j++){
     // console.log(dt.getDate() + i,days[dt.getDay() + i]);
     let date = i;
-    if(i == endDate && p<3){
-      dt.setMonth(dt.getMonth()+p);
+    if(i == endDate && p<2){
+      endDate =new Date(
+        dt.getFullYear(),
+        dt.getMonth() + p + 2,
+        0
+      ).getDate();
+      alert(endDate);
       i=0;
       p++;
     }
@@ -50,7 +55,7 @@ function date(){
   document.getElementsByClassName("date")[0].innerHTML = cell;
 }
 date();
-
+///////////////////////////
 
 
 
@@ -70,6 +75,8 @@ $(document).ready(function(){
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 1,
     });
   });
 
