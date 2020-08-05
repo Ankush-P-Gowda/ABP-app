@@ -34,11 +34,11 @@ function date(){
   let p = 0;
   for(let i=dt.getDate(),j=dt.getDay(); i<endDate+1; i++,j++){
     // console.log(dt.getDate() + i,days[dt.getDay() + i]);
-    if(i == endDate+1 && p<3){
+    let date = i;
+    if(i == endDate && p<3){
       i=1;
       p++;
     }
-    let date = i;
     if(j == 7){
       j = 0;
     }
@@ -68,7 +68,7 @@ $(document).ready(function(){
     $('.date').slick({
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 7,
+        slidesToShow: 3,
     });
   });
 
