@@ -10,7 +10,7 @@ var endDate = new Date(
 ).getDate();
 
 // Month and Year
-function loadDate(k){
+function loadDate(){
   document.getElementsByClassName("month")[0].innerText = months[dt.getMonth()];
   document.getElementsByClassName("year")[0].innerText = dt.getFullYear();
 }
@@ -36,8 +36,7 @@ function date(){
     // console.log(dt.getDate() + i,days[dt.getDay() + i]);
     let date = i;
     if(i == endDate && p<3){
-      dt.setMonth(dt.getMonth()+1);
-      k++;
+      dt.setMonth(dt.getMonth()+p);
       i=0;
       p++;
     }
