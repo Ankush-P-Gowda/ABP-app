@@ -36,7 +36,9 @@ function date(){
     // console.log(dt.getDate() + i,days[dt.getDay() + i]);
     let date = i;
     if(i == endDate && p<3){
-      i=1;
+      dt.setMonth(dt.getMonth()+1);
+      k++;
+      i=0;
       p++;
     }
     if(j == 7){
