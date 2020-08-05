@@ -30,11 +30,15 @@ h5{
 a{
     text-decoration: none;
     color: black;
+    transition:0s 1s;
 }
+
 a:active{
     text-decoration: none;
-    color: black;  
+    color: #ee4c7c !important;
+    transition:1s;  
 }
+
 a:link{
     text-decoration: none;
     color: black; 
@@ -43,6 +47,7 @@ a:visited{
     text-decoration: none;
     color: black; 
 }
+
 .lastrow{
     margin-bottom: 6rem !important;
 }
