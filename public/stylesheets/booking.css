@@ -1,47 +1,25 @@
-.date{
-    height: 7rem;
-    background-color: white;
+.month{
+    height: 3.5rem;
+    width: 100%;
+    color: white;
+    background-color: #636e72;
 }
-.date p:nth-of-type(1){
+.day p{
+    width: 14.28%;
     text-align: center;
-    font-size: 3rem;
-    color: #e3e2df;
-    margin: 0;
+    color: #b2bec3;
+    background-color: #636e72;
+    height: 2rem;
 }
-.date p:nth-of-type(2){
+.date p{
+    width: 14.28%;
     text-align: center;
-    font-size: 1rem;
-    color: #e3e2df;
-    margin-top:-.5rem ;
+    color: white;
+    background-color: #636e72;
+    height: 2rem;
 }
-.date::after{
-content: "";
-height: 0;
-width: 0;
-border-bottom: 12px solid black;
-border-top: 12px solid transparent;
-border-right: 12px solid transparent;
-border-left: 12px solid transparent;
-left: 47%;
-bottom:0%;
-position: absolute;
-}
-.date::before{
-    content: "";
-    height: 0;
-    width: 0;
-    border-bottom: 12px solid transparent;
-    border-top: 12px solid black;
-    border-right: 12px solid transparent;
-    border-left: 12px solid transparent;
-    left: 47%;
-    top:0%;
-    position: absolute;
-    }
-
-.date .slick-center p{
-    color: black !important;
-    transform: scale(1.2,1.2);
+.date p:hover{
+    background-color: #ee4c7c;
 }
 
 .time .slick-center{
@@ -65,9 +43,6 @@ position: absolute;
     background-color: white !important;
     border: 1px solid #ee4c7c !important;
     margin-top: .8rem !important;
-}
-.date .col-2{
-    padding-top: .3rem;
 }
 
 .heading{
