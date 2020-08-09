@@ -22,6 +22,15 @@
 .date p:hover{
     background-color: #ee4c7c;
 }
+.prev , .next{
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+}
+.prev:hover , .next:hover{
+background-color: rgba(0, 0, 0, 0.5);
+}
 
 .time .slick-center{
     background-color: #ee4c7c !important;
