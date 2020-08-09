@@ -17,6 +17,7 @@
     color: white;
     background-color: #636e72;
     height: 2rem;
+    cursor: pointer;
 }
 .date p:hover{
     background-color: #ee4c7c;
