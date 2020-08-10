@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <script>
+        // Ignore this in your implementation
+        window.isMbscDemo = true;
+    </script>
+
+    <title>Variable week view</title>
+
+    <!-- Mobiscroll JS and CSS Includes -->
+    <link rel="stylesheet" href="css/mobiscroll.javascript.min.css">
+    <script src="js/mobiscroll.javascript.min.js"></script>
+
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+    </style>
+
+</head>
+<body>
+
+<div mbsc-page class="demo-week-view">
+  <div style="height:100%">
+      <div mbsc-form>
+        <div class="mbsc-form-group">
+            <div class="mbsc-form-group-title"> One week view</div>
+                <div id="demo-one-week"  />
+        </div>
+        <div class="mbsc-form-group">
+            <div class="mbsc-form-group-title"> Two week view</div>
+                <div id="demo-two-week" />
+        </div>
+        <div class="mbsc-form-group">
+            <div class="mbsc-form-group-title"> Three week view</div>
+                <div id="demo-three-week" />
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+    // Use the settings object to change the theme
+    mobiscroll.settings = {
+        lang: 'en',            // Specify language like: lang: 'pl' or omit setting to use default
+        theme: 'ios',          // Specify theme like: theme: 'ios' or omit setting to use default
+        themeVariant: 'light'  // More info about themeVariant: https://docs.mobiscroll.com/4-10-6/javascript/calendar#opt-themeVariant
+    };
+    
+    mobiscroll.calendar('#demo-one-week', {
+        display: 'inline',     // Specify display mode like: display: 'bottom' or omit setting to use default
+        weeks: 1,              // More info about weeks: https://docs.mobiscroll.com/4-10-6/javascript/calendar#opt-weeks
+    });
+    
+    mobiscroll.calendar('#demo-two-week', {
+        display: 'inline',     // Specify display mode like: display: 'bottom' or omit setting to use default
+        weeks: 2               // More info about weeks: https://docs.mobiscroll.com/4-10-6/javascript/calendar#opt-weeks
+    });
+    
+    mobiscroll.calendar('#demo-three-week', {
+        display: 'inline',     // Specify display mode like: display: 'bottom' or omit setting to use default
+        weeks: 3               // More info about weeks: https://docs.mobiscroll.com/4-10-6/javascript/calendar#opt-weeks
+    });
+</script>
+
+</body>
+</html>

@@ -4,12 +4,15 @@
     color: white;
     background-color: #3c6382;
 }
+.shadecolor{
+    color:#b2bec3!important;
+}
 .day p{
     width: 14.28%;
     text-align: center;
-    color: #b2bec3;
     background-color: #3c6382;
-    height: 2rem;
+    height: 1.2rem;
+    opacity: .8;
 }
 .date p{
     width: 14.28%;
@@ -18,6 +21,7 @@
     background-color: #3c6382;
     height: 2rem;
     cursor: pointer;
+    padding-top: .3rem;
 }
 .date p:hover{
     background-color: #ee4c7c;
