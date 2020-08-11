@@ -40,7 +40,7 @@ function RenderCalender(){
   for(i=1; i<=endDate; i++){
       if(i==today.getDate() && dt.getMonth()==today.getMonth()){
     //   cell+="<p class='pink'>"+i+"</p>";
-      cell+="<label class=\"radiodates\"><input type=\"radio\" name=\"radio\" id=''><span class=\"radio-btn pink\">" +i+ "</span></label>"
+      cell+="<label class=\"radiodates\"><input type=\"radio\" name=\"radio\" id='' checked><span class=\"radio-btn pink\">" +i+ "</span></label>"
       }else{
         // cell+="<p>"+i+"</p>";
         cell+="<label class=\"radiodates\"><input type=\"radio\" name=\"radio\" id=''><span class=\"radio-btn\">" +i+ "</span></label>"

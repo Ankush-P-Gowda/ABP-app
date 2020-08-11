@@ -34,7 +34,8 @@
     display: none;
 }
 .radiodates input:checked + .radio-btn{
-    background-color: #ee4c7c;
+    background-color: #ee4c7c !important;
+    color: white !important;
 }
 .prev , .next{
     border-radius: 100%;
@@ -125,8 +126,7 @@ background-color: rgba(0, 0, 0, 0.5);
     margin-top: .5rem;
 }
 .pink{
-    background-color: #ee4c7c !important;
-    color: white !important;
+    color: #ee4c7c !important;
 }
 
 
