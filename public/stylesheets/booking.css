@@ -5,7 +5,7 @@
     background-color: #3c6382;
 }
 .shadecolor{
-    color:#b2bec3!important;
+opacity: .3;
 }
 .day p{
     width: 14.28%;
@@ -47,19 +47,41 @@
 background-color: rgba(0, 0, 0, 0.5);
 }
 
-.time .slick-center{
+.btn{
+    margin: .5rem !important;
+    width: 100px !important;
+}
+.btn:hover{
+    color:white !important;
     background-color: #ee4c7c !important;
-    color: white !important;
-    border: #ee4c7c !important;
 }
-.time .slick-track{
-    height: 100%;
-}
-
 .time{
-    height: 4rem;
+    height: 3.2rem;
     margin-top: .5rem;
     background-color: white;
+    overflow-x: scroll;
+}
+.timeDis input{
+    display: none;
+}
+.time .timeDis{
+    margin: .35rem !important;
+    margin-bottom: 0 !important;
+    background-color: white !important;
+    color: #ee4c7c !important;
+}
+.time .timeDisplay{
+    width: 83px !important;
+    position: relative;
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 5px;
+    border:1px solid #ee4c7c;
+    text-align: center;
+}
+.time input:checked + .timeDisplay{
+    background-color: #ee4c7c;
+    color:white;
 }
 .btn{
     height: 35px !important;
@@ -67,7 +89,6 @@ background-color: rgba(0, 0, 0, 0.5);
     border: #ee4c7c !important;
     background-color: white !important;
     border: 1px solid #ee4c7c !important;
-    margin-top: .8rem !important;
 }
 
 .heading{
@@ -127,6 +148,7 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 .pink{
     color: #ee4c7c !important;
+    font-weight: bolder;
 }
 
 
