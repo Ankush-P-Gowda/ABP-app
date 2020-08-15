@@ -27,6 +27,10 @@ app.get('/more',function(req,res){
     res.render("main/more");
 });
 
+app.get('/gallery',function(req,res){
+    res.render("main/gallery");
+});
+
 app.listen(port,function(){
     console.log("Server Started Ankush..!!");
 });
