@@ -35,6 +35,10 @@ app.get('/review',function(req,res){
     res.render("main/review");
 });
 
+app.get('/offers',function(req,res){
+    res.render("main/offers");
+});
+
 app.listen(port,function(){
     console.log("Server Started Ankush..!!");
 });
