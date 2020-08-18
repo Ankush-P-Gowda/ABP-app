@@ -10,13 +10,23 @@
 <div class="review d-flex flex-column">
     <label for="reviews" style="margin: 0;"></label>
         <textarea name="reviews" id="reviews" rows="3"  placeholder="Limit the review by 110 letters.." maxlength="110"></textarea>
-        <div class="ratings d-flex flex-row">
-            <i class="fas fa-star" style="color: greenyellow !important;"></i>
-            <i class="fas fa-star" style="color: greenyellow !important;"></i>
-            <i class="fas fa-star" style="color: greenyellow !important;"></i>
-            <i class="fas fa-star" style="color: greenyellow !important;"></i>
-            <i class="fas fa-star" style="color: greenyellow !important;"></i>
+        <div class="ratings d-flex flex-row align-items-center">
+            <div class="col-6">
+                <div class="d-flex flex-row justify-content-around stars">
+                    <i class="fas fa-star" style="color: #ee4c7c !important;"></i>
+                    <i class="fas fa-star" style="color: #ee4c7c !important;"></i>
+                    <i class="fas fa-star" style="color: #ee4c7c !important;"></i>
+                    <i class="fas fa-star" style="color: #ee4c7c !important;"></i>
+                    <i class="far fa-star" style="color: #ee4c7c !important;"></i>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="d-flex flex-row justify-content-end">
+                    <a href=""><i class="fas fa-paper-plane" style="color: #ee4c7c !important;"></i></a> 
+                </div>
+            </div>
         </div>
 </div>
 
+<script src="/javascripts/review.js"></script>
 <%- include("../partials/footer") %>

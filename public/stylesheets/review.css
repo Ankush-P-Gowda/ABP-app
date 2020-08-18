@@ -1,8 +1,16 @@
 textarea{
     width: 100%;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
     outline: none;
     resize: none;
-    height: 60px;
+    height: 70px;
     border: white;
+    padding-left: .5rem;
+}
+.ratings{
+    height: 3rem;
+    background-color: #f5f6fa;
+}
+i{
+    font-size: 1.2rem;
 }
