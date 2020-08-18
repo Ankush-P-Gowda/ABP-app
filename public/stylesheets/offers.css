@@ -31,8 +31,10 @@ h6{
 
 .height{
     height: 6.3rem !important;
+    transition-duration: .4rem;
 }
 
 .transform{
     transform: translateY(-5rem);
+    transition-duration: .2rem;
 }
