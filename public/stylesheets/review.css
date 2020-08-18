@@ -11,6 +11,25 @@ textarea{
     height: 3rem;
     background-color: #f5f6fa;
 }
-i{
+.stars i{
     font-size: 1.2rem;
+}
+.custName i{
+    font-size: .7rem;
+}
+.custName .col-6{
+    padding: 0;
+}
+.custName h5{
+    margin-top: .5rem;
+}
+.list{
+    padding-top: 1rem;
+}
+.rounded{
+    background-color: white;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
 }
