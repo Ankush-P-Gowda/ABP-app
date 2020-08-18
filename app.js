@@ -31,6 +31,10 @@ app.get('/gallery',function(req,res){
     res.render("main/gallery");
 });
 
+app.get('/review',function(req,res){
+    res.render("main/review");
+});
+
 app.listen(port,function(){
     console.log("Server Started Ankush..!!");
 });

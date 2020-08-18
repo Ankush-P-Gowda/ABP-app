@@ -1,0 +1,22 @@
+<%- include("../partials/header") %>
+<link rel="stylesheet" href="/stylesheets/review.css">
+<link rel="stylesheet" href="/stylesheets/pageHeader.css">
+
+<div class="d-flex flex-row justify-content-center align-items-center pageHeader">
+    <a href="/more"><i class="fas fa-arrow-left"></i></a>
+    <h5>Review's</h5>
+</div>
+
+<div class="review d-flex flex-column">
+    <label for="reviews" style="margin: 0;"></label>
+        <textarea name="reviews" id="reviews" rows="3"  placeholder="Limit the review by 110 letters.." maxlength="110"></textarea>
+        <div class="ratings d-flex flex-row">
+            <i class="fas fa-star" style="color: greenyellow !important;"></i>
+            <i class="fas fa-star" style="color: greenyellow !important;"></i>
+            <i class="fas fa-star" style="color: greenyellow !important;"></i>
+            <i class="fas fa-star" style="color: greenyellow !important;"></i>
+            <i class="fas fa-star" style="color: greenyellow !important;"></i>
+        </div>
+</div>
+
+<%- include("../partials/footer") %>

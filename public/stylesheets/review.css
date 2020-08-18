@@ -1,0 +1,8 @@
+textarea{
+    width: 100%;
+    line-height: 1.5rem;
+    outline: none;
+    resize: none;
+    height: 60px;
+    border: white;
+}
