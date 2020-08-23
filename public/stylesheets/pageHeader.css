@@ -8,7 +8,11 @@
     font-size: 1.8rem;
 }
 .pageHeader i{
-    margin-left: -7.2rem;
     font-size: 1.3rem;
     color: white !important;
+}
+.pageHeader a{
+    position: absolute;
+    left: 0;
+    margin-left: .5rem;
 }
