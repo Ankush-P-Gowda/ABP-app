@@ -1,1 +1,1 @@
-web: npm run abp
+web: node app.js
