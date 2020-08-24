@@ -19,6 +19,10 @@ app.get('/services/threading',function(req,res){
     res.render("main/threading");
 });
 
+app.get('/services/waxing',function(req,res){
+    res.render("main/waxing");
+});
+
 app.get('/booking',function(req,res){
     res.render("main/booking");
 });

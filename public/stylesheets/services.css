@@ -24,3 +24,7 @@
 .servicesList{
     padding: .5rem;
 }
+
+.servicesList a{
+    border: 1px solid black;
+}
