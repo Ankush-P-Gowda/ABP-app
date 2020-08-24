@@ -17,6 +17,10 @@
     transform: scale(1.2);
 }
 .mx-2{
-    margin-left: 4.1vw !important;
-    margin-right: 4.1vw !important;
+    margin-left: 3.8vw !important;
+    margin-right: 3.8vw !important;
+}
+
+.servicesList{
+    padding: .5rem;
 }
