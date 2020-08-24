@@ -1,0 +1,28 @@
+.col-9, .col-3{
+    padding: 0;
+}
+.col-3{
+    text-align: center;
+}
+h5, p, h6, label{
+    margin: 0;
+}
+.col-9{
+    left: 1.2rem;
+}
+.servicesList{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    background-color: white;
+}
+input{
+    display: none;
+}
+.list{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.services input:checked + .extra{
+    background-color: #ee4c7c;
+    color:white
+}

@@ -15,6 +15,10 @@ app.get('/services',function(req,res){
     res.render("main/services");
 });
 
+app.get('/services/threading',function(req,res){
+    res.render("main/threading");
+});
+
 app.get('/booking',function(req,res){
     res.render("main/booking");
 });
