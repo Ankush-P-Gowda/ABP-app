@@ -28,3 +28,9 @@ input{
     background-color: #ee4c7c;
     color:white
 }
+.btn{
+    height: 2rem !important;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-right: .5rem !important;
+}
