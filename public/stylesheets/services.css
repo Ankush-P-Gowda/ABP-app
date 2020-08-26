@@ -28,3 +28,8 @@
 .servicesList a{
     border: 1px solid black;
 }
+
+.servicesList a img{
+    height: 110px;
+    width: 100%;
+}

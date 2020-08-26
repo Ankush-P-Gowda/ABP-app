@@ -1,4 +1,4 @@
-.col-9, .col-3, .col-4{
+.col-9, .col-3, .col-4, .col-6{
     padding: 0;
 }
 .col-3{
@@ -33,4 +33,15 @@ input{
     font-size: 1.1rem;
     font-weight: 800;
     margin-right: .5rem !important;
+}
+.input__checkbox{
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    height: 18px;
+    width: 18px;
+    margin-left: .5rem;
+}
+.facialList h5, label{
+    text-align: center;
 }

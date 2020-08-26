@@ -23,6 +23,18 @@ app.get('/services/waxing',function(req,res){
     res.render("main/waxing");
 });
 
+app.get('/services/bleach',function(req,res){
+    res.render("main/bleach");
+});
+
+app.get('/services/antitan',function(req,res){
+    res.render("main/antitan");
+});
+
+app.get('/services/facial',function(req,res){
+    res.render("main/facial");
+});
+
 app.get('/booking',function(req,res){
     res.render("main/booking");
 });
