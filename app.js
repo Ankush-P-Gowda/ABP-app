@@ -43,7 +43,13 @@ app.get('/services/haircolor',function(req,res){
     res.render("main/haircolor");
 });
 
+app.get('/services/pedicure',function(req,res){
+    res.render("main/pedicure");
+});
 
+app.get('/services/manicure',function(req,res){
+    res.render("main/manicure");
+});
 
 app.get('/booking',function(req,res){
     res.render("main/booking");
