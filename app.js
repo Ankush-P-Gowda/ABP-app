@@ -35,6 +35,16 @@ app.get('/services/facial',function(req,res){
     res.render("main/facial");
 });
 
+app.get('/services/haircut',function(req,res){
+    res.render("main/haircut");
+});
+
+app.get('/services/haircolor',function(req,res){
+    res.render("main/haircolor");
+});
+
+
+
 app.get('/booking',function(req,res){
     res.render("main/booking");
 });

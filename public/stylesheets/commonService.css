@@ -61,3 +61,9 @@ input{
     left: .1rem;
     color: #ee4c7c;
 }
+
+.header{
+    margin: .8rem;
+    display: flex;
+    justify-content: start;
+}
