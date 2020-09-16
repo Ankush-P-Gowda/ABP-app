@@ -33,3 +33,13 @@
     height: 110px;
     width: 100%;
 }
+
+.alert{
+    position: fixed;
+    bottom: 3.7rem;
+    text-align: center;
+}
+
+.lastrow2{
+    margin-bottom: 9rem;
+}
