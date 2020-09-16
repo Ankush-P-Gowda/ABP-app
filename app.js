@@ -51,6 +51,9 @@ app.get('/services/manicure',function(req,res){
     res.render("main/manicure");
 });
 
+app.get('/services/haircare',function(req,res){
+    res.render("main/haircare");
+});
 app.get('/booking',function(req,res){
     res.render("main/booking");
 });
