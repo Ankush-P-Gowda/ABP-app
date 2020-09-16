@@ -71,3 +71,12 @@ input{
     display: flex;
     justify-content: start;
 }
+
+.custom-select{
+    height: 100%;
+    font-size: 1rem;
+    background-color: #ee4c7c;
+    color: white;
+    padding: 0;
+    padding-left: 1rem;
+}
