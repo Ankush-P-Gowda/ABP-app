@@ -6,6 +6,7 @@
     <a href="/services"><i class="fas fa-arrow-left"></i></a>
     <h5>Threading</h5>
 </div>
+
 <div class="list">
     <div class="row servicesList mx-2 rounded">
         <div class="row p-2 pt-3 pb-3" style="width: 100%;">
@@ -17,12 +18,12 @@
                 <p class="btn my-auto px-4">Add</p>
             </div>
         </div>
-        <div class="row" style="width: 100%;">
+        <div class="row options" style="width: 100%;">
             <div class="d-flex flex-row" style="width: 100%;border-top: 1px solid black;">
                 <div class="col-4 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra" checked>
+                            <input type="radio" name="extra" checked onclick="pricecheck(0,50)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1 pl-2 pr-2 text-center">No Wax</p>
                             </div>
@@ -32,7 +33,7 @@
                 <div class="col-4 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra">
+                            <input type="radio" name="extra" onclick="pricecheck(0,100)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1 pl-2 pr-2 text-center">Normal Wax</p>
                             </div>
@@ -42,7 +43,7 @@
                 <div class="col-4 services">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra">
+                            <input type="radio" name="extra" onclick="pricecheck(0,150)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1 pl-2 pr-2 text-center">Chocolate Wax</p>
                             </div>
@@ -64,12 +65,12 @@
                 <p class="btn my-auto px-4">Add</p>
             </div>
         </div>
-        <div class="row" style="width: 100%;">
+        <div class="row options" style="width: 100%;">
             <div class="d-flex flex-row" style="width: 100%;border-top: 1px solid black;">
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra1" checked>
+                            <input type="radio" name="extra1" checked onclick="pricecheck(1,30)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">No Wax</p>
                             </div>
@@ -79,7 +80,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra1">
+                            <input type="radio" name="extra1" onclick="pricecheck(1,40)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Normal Wax</p>
                             </div>
@@ -89,7 +90,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra1">
+                            <input type="radio" name="extra1" onclick="pricecheck(1,50)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Chocolate Wax</p>
                             </div>
@@ -99,7 +100,7 @@
                 <div class="col-3 services">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra1">
+                            <input type="radio" name="extra1" onclick="pricecheck(1,60)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Rica Wax</p>
                             </div>
@@ -121,12 +122,12 @@
                 <p class="btn my-auto px-4">Add</p>
             </div>
         </div>
-        <div class="row" style="width: 100%;">
+        <div class="row options" style="width: 100%;">
             <div class="d-flex flex-row" style="width: 100%;border-top: 1px solid black;">
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra2" checked>
+                            <input type="radio" name="extra2" checked onclick="pricecheck(2,40)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">No Wax</p>
                             </div>
@@ -136,7 +137,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra2">
+                            <input type="radio" name="extra2" onclick="pricecheck(2,50)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Normal Wax</p>
                             </div>
@@ -146,7 +147,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra2">
+                            <input type="radio" name="extra2" onclick="pricecheck(2,60)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Chocolate Wax</p>
                             </div>
@@ -156,7 +157,7 @@
                 <div class="col-3 services">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra2">
+                            <input type="radio" name="extra2" onclick="pricecheck(2,70)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Rica Wax</p>
                             </div>
@@ -177,12 +178,12 @@
                 <p class="btn my-auto px-4">Add</p>
             </div>
         </div>
-        <div class="row" style="width: 100%;">
+        <div class="row options" style="width: 100%;">
             <div class="d-flex flex-row" style="width: 100%;border-top: 1px solid black;">
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra3" checked>
+                            <input type="radio" name="extra3" checked onclick="pricecheck(3,100)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">No Wax</p>
                             </div>
@@ -192,7 +193,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra3">
+                            <input type="radio" name="extra3" onclick="pricecheck(3,150)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Normal Wax</p>
                             </div>
@@ -202,7 +203,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra3">
+                            <input type="radio" name="extra3" onclick="pricecheck(3,200)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Chocolate Wax</p>
                             </div>
@@ -212,7 +213,7 @@
                 <div class="col-3 services">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra3">
+                            <input type="radio" name="extra3" onclick="pricecheck(3,250)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Rica Wax</p>
                             </div>
@@ -233,12 +234,12 @@
                 <p class="btn my-auto px-4">Add</p>
             </div>
         </div>
-        <div class="row" style="width: 100%;">
+        <div class="row options" style="width: 100%;">
             <div class="d-flex flex-row" style="width: 100%;border-top: 1px solid black;">
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra4" checked>
+                            <input type="radio" name="extra4" checked onclick="pricecheck(4,20)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">No Wax</p>
                             </div>
@@ -248,7 +249,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra4">
+                            <input type="radio" name="extra4" onclick="pricecheck(4,30)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Normal Wax</p>
                             </div>
@@ -258,7 +259,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra4">
+                            <input type="radio" name="extra4" onclick="pricecheck(4,40)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Chocolate Wax</p>
                             </div>
@@ -268,7 +269,7 @@
                 <div class="col-3 services">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra4">
+                            <input type="radio" name="extra4" onclick="pricecheck(4,50)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Rica Wax</p>
                             </div>
@@ -290,12 +291,12 @@
                 <p class="btn my-auto px-4">Add</p>
             </div>
         </div>
-        <div class="row" style="width: 100%;">
+        <div class="row options" style="width: 100%;">
             <div class="d-flex flex-row" style="width: 100%;border-top: 1px solid black;">
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra5" checked>
+                            <input type="radio" name="extra5" checked onclick="pricecheck(5,200)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">No Wax</p>
                             </div>
@@ -305,7 +306,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra5">
+                            <input type="radio" name="extra5" onclick="pricecheck(5,250)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Normal Wax</p>
                             </div>
@@ -315,7 +316,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra5">
+                            <input type="radio" name="extra5" onclick="pricecheck(5,400)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Chocolate Wax</p>
                             </div>
@@ -325,7 +326,7 @@
                 <div class="col-3 services">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra5">
+                            <input type="radio" name="extra5" onclick="pricecheck(5,500)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Rica Wax</p>
                             </div>
@@ -347,12 +348,12 @@
                 <p class="btn my-auto px-4">Add</p>
             </div>
         </div>
-        <div class="row" style="width: 100%;">
+        <div class="row options" style="width: 100%;">
             <div class="d-flex flex-row" style="width: 100%;border-top: 1px solid black;">
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra6" checked>
+                            <input type="radio" name="extra6" checked onclick="pricecheck(6,50)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">No Wax</p>
                             </div>
@@ -362,7 +363,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra6">
+                            <input type="radio" name="extra6" onclick="pricecheck(6,100)"> 
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Normal Wax</p>
                             </div>
@@ -372,7 +373,7 @@
                 <div class="col-3 services" style="border-right: 1px solid black;">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra6">
+                            <input type="radio" name="extra6" onclick="pricecheck(6,150)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Chocolate Wax</p>
                             </div>
@@ -382,7 +383,7 @@
                 <div class="col-3 services">
                     <div class="d-flex flex-column justify-content-center" style="height:100%">
                         <label style="height: 100%;width: 100%;">
-                            <input type="radio" name="extra6">
+                            <input type="radio" name="extra6" onclick="pricecheck(6,200)">
                             <div class="d-flex flex-column justify-content-center align-items-center extra" style="height:100%;">
                                 <p class="p-1">Rica Wax</p>
                             </div>
@@ -392,7 +393,7 @@
             </div>
         </div>
     </div>
-
-
 </div>
+
+<script src="/javascripts/threading.js"></script>
 <%- include("../partials/footer") %>
