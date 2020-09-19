@@ -1,5 +1,5 @@
 var price = document.querySelectorAll('.col-8 h5:nth-of-type(2)');
-let clicks = [{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0}];
+let clicks = [{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0},{i:0,j:0}];
 
 function cleanup(place,base,clean,back){
     let i = retrive(place,'i');
