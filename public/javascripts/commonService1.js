@@ -66,7 +66,7 @@ function store(place,cha,value){
 
 $(function(){
     $('.col-4 .btn').on('click',function(){
-        $('.bookingnav').addClass('animate__animated animate__rubberBand').one('webkitAnimationEnd animationed',function(){
+        $('.bookingnav').addClass('animate__animated animate__rubberBand').one('webkitAnimationEnd animationend',function(){
             $(this).removeClass('animate__animated animate__rubberBand')
         });
     }); 
