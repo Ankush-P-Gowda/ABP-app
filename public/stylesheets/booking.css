@@ -159,6 +159,7 @@ background-color: rgba(0, 0, 0, 0.5);
     background-color: white;
     height: 25rem;
     margin: 1rem;
+    border: 1px solid black;
 }
 .contain form{
     width: 100%;
