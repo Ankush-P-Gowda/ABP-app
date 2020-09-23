@@ -177,5 +177,11 @@ background-color: rgba(0, 0, 0, 0.5);
     border-radius: .3rem;
 }
 
+input:focus,
+input:active{
+    outline: none;
+    border-color: #ee4c7c;
+}
+
 
 
