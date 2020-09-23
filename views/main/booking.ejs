@@ -21,8 +21,7 @@
 </div>
 <div class="row date"></div>
 
-<!--  -->
-<div class="d-flex flex-row time">
+<!-- <div class="d-flex flex-row time">
     <label class="timeDis">
         <input type="radio" name="radio1" class="btn text-nowrap">
         <span class="timeDisplay">9:00 A.M</span>  
@@ -127,11 +126,11 @@
         <input type="radio" name="radio1" class="btn text-nowrap">
         <span class="timeDisplay">9:30 P.M</span>  
     </label>
-</div>
+</div> -->
 
 <div class="d-flex flex-row align-items-center services-list">
     <div class="col-6">
-        <h5>Added Services</h5>
+        <h5 style="margin-top: 0.5rem">Added Services</h5>
     </div>
     <div class="col-6">
         <div class="container d-block">
@@ -139,35 +138,45 @@
         </div>
     </div>
 </div>
-<div class="d-flex flex-column servicesAdded">
-    <div class="d-flex justify-content-between align-items-center list">
-        <p>Lorem, ipsum dolor.</p>
-        <i class="fas fa-minus"></i>
-    </div>
-    <div class="d-flex justify-content-between align-items-center list">
-        <p>Lorem, ipsum dolor.</p>
-        <i class="fas fa-minus"></i>
-    </div>
-    <div class="d-flex justify-content-between align-items-center list">
-        <p>Lorem, ipsum dolor.</p>
-        <i class="fas fa-minus"></i>
-    </div>
-    <div class="d-flex justify-content-between align-items-center list">
-        <p>Lorem, ipsum dolor.</p>
-        <i class="fas fa-minus"></i>
-    </div>
-    <div class="d-flex justify-content-between align-items-center list">
-        <p>Lorem, ipsum dolor.</p>
-        <i class="fas fa-minus"></i>
-    </div>
-    <div class="d-flex justify-content-between align-items-center list">
-        <p>Lorem, ipsum dolor.</p>
-        <i class="fas fa-minus"></i>
-    </div>
+
+<div class="d-flex contain rounded justify-content-around">
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+    </form>
 </div>
+<!-- <div class="d-flex flex-column servicesAdded">
+    <div class="d-flex justify-content-between align-items-center list">
+        <p>Lorem, ipsum dolor.</p>
+        <i class="fas fa-minus"></i>
+    </div>
+    <div class="d-flex justify-content-between align-items-center list">
+        <p>Lorem, ipsum dolor.</p>
+        <i class="fas fa-minus"></i>
+    </div>
+    <div class="d-flex justify-content-between align-items-center list">
+        <p>Lorem, ipsum dolor.</p>
+        <i class="fas fa-minus"></i>
+    </div>
+    <div class="d-flex justify-content-between align-items-center list">
+        <p>Lorem, ipsum dolor.</p>
+        <i class="fas fa-minus"></i>
+    </div>
+    <div class="d-flex justify-content-between align-items-center list">
+        <p>Lorem, ipsum dolor.</p>
+        <i class="fas fa-minus"></i>
+    </div>
+    <div class="d-flex justify-content-between align-items-center list">
+        <p>Lorem, ipsum dolor.</p>
+        <i class="fas fa-minus"></i>
+    </div>
+</div> -->
+
 <div class="d-flex flex-row button lastrow align-items-center" style="height: 3rem;">
     <a class="btn" href="#" role="button" style="width: 100% !important;">Book Now</a>
 </div>
 
-<script src="/javascripts/booking.js"></script>
+<script src="/javascripts/calendar.js"></script>
 <%- include("../partials/footer") %>
