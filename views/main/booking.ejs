@@ -130,7 +130,7 @@
 
 <div class="d-flex flex-row align-items-center services-list">
     <div class="col-6">
-        <h5 style="margin-top: 0.5rem">Added Services</h5>
+        <h5 style="margin-top: 0.5rem">Appointment</h5>
     </div>
     <div class="col-6">
         <div class="container d-block">
@@ -139,12 +139,22 @@
     </div>
 </div>
 
-<div class="d-flex contain rounded justify-content-around">
+<div class="d-flex contain rounded justify-content-around lastrow">
     <form>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+        <label for="date">Date:</label><br>
+        <div class="row">
+            <div class="col-5">
+                <input type="date" id="date" name="sdate" value="2020-09-22">
+            </div>
+            <div class="col-2">
+                <p style="font-size: 1rem;font-weight: 700;text-align: center;margin-top: .5rem;">TO</p>
+            </div>
+            <div class="col-5">
+                <input type="date" id="date" name="ldate" value="2021-01-06">
+            </div>
+        </div>
         <div class="d-flex flex-row button lastrow align-items-center" style="height: 3rem;">
             <a class="btn" href="#" role="button" style="width: 100% !important;">Book Now</a>
         </div>
