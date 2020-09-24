@@ -55,20 +55,21 @@ background-color: rgba(0, 0, 0, 0.5);
     color:white !important;
     background-color: #ee4c7c !important;
 }
-.time{
+/* .time{
     height: 3.2rem;
     margin-top: .5rem;
     background-color: white;
     overflow-x: scroll;
-}
-.timeDis input{
+} */
+.contain .col-4 input[type="radio"]{
     display: none;
 }
-.time .timeDis{
-    margin: .35rem !important;
-    margin-bottom: 0 !important;
+.contain .timings{
     background-color: white !important;
-    color: #ee4c7c !important;
+    color: black !important;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: .3rem;
 }
 .time .timeDisplay{
     width: 83px !important;
@@ -79,9 +80,11 @@ background-color: rgba(0, 0, 0, 0.5);
     border:1px solid #ee4c7c;
     text-align: center;
 }
-.time input:checked + .timeDisplay{
-    background-color: #ee4c7c;
-    color:white;
+
+.contain .col-4 input:checked + .timings{
+    background-color: #ee4c7c !important;
+    color:white !important;
+    border: 1px solid #ee4c7c;
 }
 .btn{
     height: 35px !important;
@@ -168,7 +171,6 @@ background-color: rgba(0, 0, 0, 0.5);
 }
 .contain label{
     margin: 0;
-    font-size: 1.25rem;
     font-weight: 600;
 }
 .contain input{
@@ -177,6 +179,10 @@ background-color: rgba(0, 0, 0, 0.5);
     padding-left: .3rem;
     border: 1.5px solid black;
     border-radius: .3rem;
+}
+
+.contain .col-4{
+    padding: .3rem;
 }
 
 .contain .col-5, .col-2{
