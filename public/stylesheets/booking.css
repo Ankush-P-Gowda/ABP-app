@@ -181,6 +181,10 @@ background-color: rgba(0, 0, 0, 0.5);
     border-radius: .3rem;
 }
 
+.contain input[type="textarea"]{
+    height: 6.5rem;
+}
+
 .contain .col-4{
     padding: .3rem;
 }
