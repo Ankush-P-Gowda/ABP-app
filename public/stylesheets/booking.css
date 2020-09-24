@@ -181,8 +181,13 @@ background-color: rgba(0, 0, 0, 0.5);
     border-radius: .3rem;
 }
 
-.contain input[type="textarea"]{
+.contain #services{
     height: 6.5rem;
+    width: 100%;
+    padding-left: .3rem;
+    padding-top: .3rem;
+    border-radius: .3rem;
+    border: 1.5px solid black;
 }
 
 .contain .col-4{
@@ -197,6 +202,12 @@ input:focus,
 input:active{
     outline: none;
     border-color: #ee4c7c;
+}
+
+textarea:focus,
+textarea:active{
+    outline: none;
+    border-color: #ee4c7c !important;
 }
 
 
