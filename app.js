@@ -58,6 +58,13 @@ app.get('/booking',function(req,res){
     res.render("main/booking");
 });
 
+app.post('/booking',function(req,res){
+    console.log(req.body);
+    const number = +919686602801;
+    const link = "https://api.whatsapp.com/send?phone=" + number + "&text=Name:" + req.body.name + "\nRequested Date:" + req.body.sdate + " to " + req.body.ldate + "\nTimings:" + req.body.time + "\nServices:" + req.body.services + "&source=&data=&app_absent=";
+    res.redirect(link);
+});
+
 app.get('/products', function(req, res) {
     res.render("main/products");
 });
